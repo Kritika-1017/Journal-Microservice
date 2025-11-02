@@ -70,8 +70,6 @@ The application uses SQLite with the following schema:
 - **Attachments** - Stores files attached to journals
 - **Journal Students** - Junction table for tagging students in journals
 
-See the [ER Diagram](./er-diagram.md) for a visual representation of the database schema.
-
 ## Postman: Tagging a Student When Creating a Journal
 
 A dedicated Postman request is included for creating a journal and tagging a specific student by ID. This is useful for testing notification features.
